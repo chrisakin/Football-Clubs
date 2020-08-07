@@ -6,13 +6,13 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class SoccerDataService {
-    API_KEY ='e1291240e451f98a501609a8d785906daab789b251b04cb7c69e01672304411b';
+    API_KEY ='6776b0c7e8msh42db2a49d6c6123p14f878jsn22c078fcd85c';
   constructor(
     private httpClient: HttpClient
   ) { }
 
   getSports() {
-    return this.httpClient.get(`https://allsportsapi.com/admin&apiKey=${this.API_KEY}`);
+    return this.httpClient.get(`https://api-football-v1.p.rapidapi.com&apiKey=${this.API_KEY}`);
   }
 
   
