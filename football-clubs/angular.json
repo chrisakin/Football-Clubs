@@ -123,5 +123,8 @@
       }
     }
   },
-  "defaultProject": "football-clubs"
+  "defaultProject": "football-clubs",
+  "cli": {
+    "analytics": false
+  }
 }
